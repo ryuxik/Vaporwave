@@ -5,7 +5,7 @@ h1 {
 }
 
 div:hover {
-	background-color: #FFE1FF;
+	background-color: #e8d9fa;
 }
 html {
 	font-color: #683A5E;
@@ -14,13 +14,15 @@ html {
 }
 
 div {
-	background: -webkit-linear-gradient(top, #ffccf5 0%,#cdaaff 51%,#a8e3ff 100%);
+    border-radius: 10px;
+	background: -webkit-linear-gradient(top, #ffeafb 0%,#e3d1fd 51%,#d1f0ff 100%);
 	font-family: monospace;
 	cursor: url(http://i.imgur.com/1tlkdT6.png), auto;
 }
 
 div div {
-    background: -webkit-linear-gradient(top, #ffccf5 0%,#cdaaff 51%,#a8e3ff 100%);
+    border-radius: 10px;
+    background: -webkit-linear-gradient(top, #ffeafb 0%,#e3d1fd 51%,#d1f0ff 100%);
 	font-family: monospace;
 	cursor: url(http://i.imgur.com/1tlkdT6.png), auto;
 }

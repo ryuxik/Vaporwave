@@ -22,6 +22,7 @@ var replaceTextInNode = function(parentNode){
             node.textContent = node.textContent.replace(/\bi\b/i, 'ワ タ シ ');
             node.textContent = node.textContent.replace(/!/i, ' ！！');
             node.textContent = node.textContent.replace(/thing/i, 'boop');
+            node.textContent = node.textContent.replace(/s/i, '§');
         } else if(node.nodeType == Element.ELEMENT_NODE){
             //  Check this node's child nodes for text nodes to act on
 
