@@ -9,26 +9,34 @@ div:hover {
 }
 html {
 	font-color: #683A5E;
-	font-family: Times New Roman, Helvetica;
+	font-family: "Times New Roman", Helvetica;
 
 }
 div {
 	background-color: #8B7B8B;
-
+	font-family: monospace;
 }
 div, div {
 	background-color: #F6CCDA;
+	font-family: monospace;
+	cursor: url(http://i.imgur.com/1tlkdT6.png), auto;
+
 }
 
+
 p {
-	font-family: Helvetica;
+	font-family: monospace;
 	color:#872657;
+	
 }
 
 a {
-	color:#FF00AA;
+	cursor: crosshair;
 }
 
 a:hover {
 	color: #9932CC;
+	cursor: crosshair;
 }
+
+
