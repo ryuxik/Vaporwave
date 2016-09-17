@@ -18,6 +18,11 @@ div {
 	font-family: monospace;
 	cursor: url(http://i.imgur.com/1tlkdT6.png), auto;
 }
+input {
+	background: -webkit-linear-gradient(top, #230854 15%,#9932CD 60%,#3066FF 100%);
+	font-family: monospace;
+	cursor: url(http://i.imgur.com/1tlkdT6.png), auto;
+}
 
 div div {
     background: -webkit-linear-gradient(top, #ffccf5 0%,#cdaaff 51%,#a8e3ff 100%);
