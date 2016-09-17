@@ -3,10 +3,8 @@ h1 {
 	font-size: 130%;
 
 }
-body {
-	font-color: #872657;
-}
-body:hover {
+
+div:hover {
 	background-color: #FFE1FF;
 }
 html {
@@ -14,4 +12,23 @@ html {
 	font-family: Times New Roman, Helvetica;
 
 }
+div {
+	background-color: #8B7B8B;
 
+}
+div, div {
+	background-color: #F6CCDA;
+}
+
+p {
+	font-family: Helvetica;
+	color:#872657;
+}
+
+a {
+	color:#FF00AA;
+}
+
+a:hover {
+	color: #9932CC;
+}
