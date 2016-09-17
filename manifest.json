@@ -10,7 +10,7 @@
       "http://*/*",
       "https://*/*"
     ],
-    "css": ["vstyle.css"],
+    "css": ["vstyle.css"]
     }
   ]
 }
