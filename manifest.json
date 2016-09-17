@@ -5,6 +5,12 @@
   "description": "This extension will satisfy ur a e s t h e t i c needs",
   "version": "1.0",
 
+  "content_scripts": [
+  {
+    "css": ["vstyle.css"]
+    }
+    ],
+
   "browser_action": {
     "default_icon": "icon.png",
     "default_popup": "popup.html"
