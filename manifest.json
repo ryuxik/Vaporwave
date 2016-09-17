@@ -1,16 +1,16 @@
 {
-  "manifest_version": 2,
-
+"manifest_version": 2,
   "name": "vaporwave lol",
   "description": "This extension will satisfy ur a e s t h e t i c needs",
   "version": "1.0",
 
-  "browser_action": {
-    "default_icon": "icon.png",
-    "default_popup": "popup.html"
-  },
- "permissions": [
-       "activeTab",
-       "https://ajax.googleapis.com/"
- ]
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "css": ["vstyle.css"]
+    }
+  ]
 }

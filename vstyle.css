@@ -1,0 +1,17 @@
+h1 {
+	font-color:#DB70DB;
+	font-size: 130%;
+
+}
+body {
+	font-color: #872657;
+}
+body:hover {
+	background-color: #FFE1FF;
+}
+html {
+	font-color: #683A5E;
+	font-family: Times New Roman, Helvetica;
+
+}
+
