@@ -19,13 +19,15 @@ div {
 	cursor: url(http://i.imgur.com/1tlkdT6.png), auto;
 }
 
-
-
-
-
 a:hover {
 	color: #9932CC;
 	cursor: crosshair;
 }
 
+input {
+	color:#ECC8EC;
+}
 
+caption {
+	color: #94858e;
+}
