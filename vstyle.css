@@ -19,15 +19,20 @@ div {
 	cursor: url(http://i.imgur.com/1tlkdT6.png), auto;
 }
 
+div div {
+    background-color: #F6CCDA;
+	font-family: monospace;
+	cursor: url(http://i.imgur.com/1tlkdT6.png), auto;
+}
+
+p{
+    font-family: monospace;
+}
+
+
 a:hover {
 	color: #9932CC;
 	cursor: crosshair;
 }
 
-input {
-	color:#ECC8EC;
-}
 
-caption {
-	color: #94858e;
-}
