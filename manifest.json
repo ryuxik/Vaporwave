@@ -3,9 +3,9 @@
   "name": "vaporwave lol",
   "description": "This extension will satisfy ur a e s t h e t i c needs",
   "version": "1.0",
-  "icons": {
-          "48": "48.jpg",
-          "128": "128.jpg" },
+  "browser_action": {
+          "default_icon": "48.jpg",
+          "default_popup": "128.jpg" },
   "content_scripts": [
     {
       "matches": [
