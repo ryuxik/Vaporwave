@@ -21,10 +21,10 @@ div div {
 	cursor: url(http://i.imgur.com/1tlkdT6.png), auto;
 }
 
-p{
+p {
     font-family: monospace;
-}
-
+  	color: #00F49A;
+}  
 
 a:hover {
 	color: #9932CC;
