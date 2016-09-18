@@ -33,6 +33,26 @@ var replaceTextInNode = function(parentNode){
 
 replaceTextInNode(document.body);
 
+// Creating a div element
+var divElement = document.createElement("div2");
+divElement.id = "div2";
+
+// Styling it
+divElement.style.background = "url('http://i.imgur.com/K8B84OT.png') no-repeat";
+divElement.style.position = "fixed";
+divElement.style.backgroundSize = "100%";
+divElement.style.width = "250px";
+divElement.style.height = "200px";
+divElement.style.right = "0px";
+divElement.style.bottom = "0px";
+divElement.onclick = function() {
+    window.location.href = 'http://www.clickhole.com/clickventure/pleasure-fern-4688';
+};
+
+
+// Appending the div element to body
+document.getElementsByTagName("body")[0].appendChild(divElement);
+
 
 var colour="#00baff";
 var sparkles=120;
@@ -201,3 +221,5 @@ function createDiv(height, width) {
   div1.style.backgroundColor="#00baff";
   return (div1);
 }
+
+
