@@ -3,23 +3,17 @@
   "name": "v 4 p 0 r w a v 3",
   "description": "This extension will satisfy all your a e s t h e t i c needs",
   "version": "1.1",
-  "icons": {
-    "16": "16.jpg",
-    "32": "32.jpg",
-    "48": "48.jpg",
-    "128": "128.jpg"
+ "icons": {
+    "16": "16.png",
+    "32": "32.png",
+    "48": "48.png",
+    "128": "128.png"
   },
-  "browser_action": {
-          "default_icon": {
-            "16": "16.jpg",
-            "32": "32.jpg",
-            "48": "48.jpg",
-            "48": "48.jpg",
-            "128": "128.jpg"
-            },
-          "default_popup": "128.jpg" 
+ "browser_action": {
+          "default_icon": "128.png",
+          "default_popup": "128.png" 
           },
-  "content_scripts": [
+ "content_scripts": [
     {
       "matches": [
         "http://*/*",
