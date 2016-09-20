@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<style>
+button {
+	font-family: monospace;
+	font-size: 12px;
+	border-radius: 3px;
+	width: 100px;
+
+} 
+button:hover {
+	opacity: 0.5;
+	cursor:;
+}
+#off {
+	background-color: red;
+}
+#on {
+	background-color: #98ff98;
+}
+</style>
+<head>
+<title>Vaporwave Popup</title>
+</head>
+<body>
+<button id="off" onclick="Disable()" type="button" >Disable</button>
+<button id="on" onclick="Enable()" type="button">Enable</button>
+<script>
+function Disable () {
+	chrome.browserAction.disable(1);
+}
+function Enable () {
+	chrome.browserAction.Enable(1);
+}
+</script>
+</body>
+</html>
