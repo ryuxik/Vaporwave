@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<style>
+body {
+    background-color: #e4f7fa;
+    }
+button {
+	font-family: monospace;
+	font-size: 12px;
+	border-radius: 10px;
+	width: 100px;
+    border: none;
+
+} 
+button:focus {
+    outline:0;
+}    
+button:hover {
+	opacity: 0.8;
+}
+#off {
+    -webkit-box-shadow: 4px 4px 0px 0px #98cc98;
+    -moz-box-shadow: 4px 4px 0px 0px #98cc98;
+    box-shadow: 4px 4px 0px 0px #98cc98;
+	background-color: #fcacf0;
+}
+#on {
+    -webkit-box-shadow: 4px 4px 0px 0px #fcacf0;
+    -moz-box-shadow: 4px 4px 0px 0px #fcacf0;
+    box-shadow: 4px 4px 0px 0px #fcacf0;
+	background-color: #98cc98;
+}
+#off:active {
+    -webkit-box-shadow: -4px -4px 0px 0px #98cc98;
+    -moz-box-shadow: -4px -4px 0px 0px #98cc98;
+    box-shadow: -4px -4px 0px 0px #98cc98;
+    -ms-transform: translate(4px, 4px);
+    -webkit-transform: translate(4px, 4px);
+    transform: translate(4px, 4px);
+    
+}
+#on:active {
+    -webkit-box-shadow: -4px -4px 0px 0px #fcacf0;
+    -moz-box-shadow: -4px -4px 0px 0px #fcacf0;
+    box-shadow: -4px -4px 0px 0px #fcacf0;
+    -ms-transform: translate(4px, 4px);
+    -webkit-transform: translate(4px, 4px);
+    transform: translate(4px, 4px);
+	background-color: #98cc98;
+}
+</style>
+<head>
+<title>Vaporwave Popup</title>
+</head>
+<body>
+<button id="off" onclick="Disable()" type="button" >Disable</button><br><br>
+<button id="on" onclick="Enable()" type="button">Enable</button>
+<script>
+function Disable() {
+	chrome.browserAction.disable();
+}
+function Enable() {
+	chrome.browserAction.Enable();
+}
+</script>
+</body>
+</html>

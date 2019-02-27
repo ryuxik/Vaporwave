@@ -1,0 +1,38 @@
+div:hover {
+	background-color: #e8d9fa;
+}
+
+div {
+    color: #0ab978;
+    border-radius: 10px;
+	background: -webkit-linear-gradient(top, #ffe0ee 0%,#dfc8ff 51%,#d1f0ff 100%);
+	font-family: monospace;
+	cursor: url(http://i.imgur.com/1tlkdT6.png), auto;
+}
+input {
+	background: -webkit-linear-gradient(top, #ffe0ee 0%,#dfc8ff 51%,#d1f0ff 100%);
+	font-family: monospace;
+	cursor: url(http://i.imgur.com/1tlkdT6.png), auto;
+}
+
+div div {
+    color: #0ab978;
+    border-radius: 10px;
+    background: -webkit-linear-gradient(top, #ffe0ee 0%,#dfc8ff 51%,#d1f0ff 100%);
+	font-family: monospace;
+	cursor: url(http://i.imgur.com/1tlkdT6.png), auto;
+}
+
+p {
+    font-family: monospace;
+  	color: #0ab978;
+}  
+
+a:hover {
+	color: #9932CC;
+	cursor: url(https://i.imgur.com/wIKIV91.png), auto
+}
+
+
+
+

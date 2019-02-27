@@ -1,0 +1,29 @@
+{
+"manifest_version": 2,
+  "name": "v 4 p 0 r w a v 3",
+  "description": "This extension will satisfy all your a e s t h e t i c needs",
+  "version": "1.1",
+ "icons": {
+    "16": "16.png",
+    "32": "32.png",
+    "48": "48.png",
+    "128": "128.png"
+  },
+ "browser_action": {
+          "default_icon": "128.png",
+          "default_popup": "popup.html" 
+          },
+ "content_scripts": [
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "js": [
+                "content.js"
+            ],
+      "run_at": "document_end",
+      "css": ["vstyle.css"]
+    }
+  ]
+}
